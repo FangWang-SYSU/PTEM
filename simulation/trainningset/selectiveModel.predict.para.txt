@@ -1,0 +1,4 @@
+model	mu	sigma
+Branching	0.688	0.082
+Linear	0.93	0.078
+Punctuated	0.428	0.127
