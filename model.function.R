@@ -1,13 +1,5 @@
 library(diptest)
-library(LaplacesDemon)
-library(dplyr)
-library(webshot)
-library(networkD3)
-library(ggplot2)
-library(ggpubr)
-library(pheatmap)
-library(circlize)
-library(ComplexHeatmap)
+
 
 selectModel <- function(CNVfre,cutoff1 = 0.05,cutoff2 = 1){
   subfre <- CNVfre[CNVfre>cutoff1&CNVfre<=cutoff2]
